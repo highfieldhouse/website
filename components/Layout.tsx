@@ -19,17 +19,17 @@ const Layout: React.FunctionComponent = (props) => {
           <strong>Highfield House</strong>
           <span>Bed &amp; Breakfast, Sheringham</span>
         </h1>
-        <nav>
-          <ul className="list">
-            <NavLink href="/"><a>About</a></NavLink>
-            <NavLink href="/covid-19"><a>COVID</a></NavLink>
-            <NavLink href="/breakfast"><a>Breakfast</a></NavLink>
-            <NavLink href="/prices"><a>Prices</a></NavLink>
-            <NavLink href="/how-to-find-us"><a>Map</a></NavLink>
-            <NavLink href="/contact-us"><a>Contact</a></NavLink>
-          </ul>
-        </nav>
       </header>
+      <nav>
+        <ul className="list">
+          <NavLink href="/"><a>About</a></NavLink>
+          <NavLink href="/covid-19"><a>COVID</a></NavLink>
+          <NavLink href="/breakfast"><a>Breakfast</a></NavLink>
+          <NavLink href="/prices"><a>Prices</a></NavLink>
+          <NavLink href="/how-to-find-us"><a>Map</a></NavLink>
+          <NavLink href="/contact-us"><a>Contact</a></NavLink>
+        </ul>
+      </nav>
       {props.children}
     </div>
   )
