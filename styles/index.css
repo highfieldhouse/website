@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
+
+header {
+  @apply bg-blue-600 p-4;
+  @apply text-xl text-gray-100 leading-normal;
+}
+
+header h1 strong {
+  @apply mr-12;
+}
+
+header h1 span {
+  @apply text-base opacity-75;
+}
+
+nav {
+  @apply sticky top-0 bg-blue-700 p-4 py-2 shadow;
+  @apply text-blue-200;
+}
+
+nav a {
+  @apply border-b-2 border-blue-500 mr-2;
+}
+
+nav a.active {
+  @apply border-none text-gray-100 font-bold;
+}
+
+main {
+  @apply p-4 pt-8;
+}
+
+main h2 {
+  @apply mb-4 text-2xl font-semibold tracking-tight;
+}
+
+main h3 {
+  @apply mb-4 text-xl;
+}
+
+main p {
+  @apply mb-4;
+}
+
+main ul {
+  @apply mb-4 ml-6 list-disc;
+}
+
+main li {
+  @apply mb-2 pl-2;
+}
+
+main a {
+  @apply text-blue-600;
+}
+
 @tailwind utilities;
