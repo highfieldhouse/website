@@ -20,14 +20,21 @@ export default function Page() {
         </Link>
 
         <h2>Welcome to Highfield House!</h2>
-        <p>A lovely spacious Edwardian Bed &amp; Breakfast in the heart of Sheringham, <em>quietly</em> tucked away, yet just a stones throw to the <strong>town centre</strong>, <strong>beach</strong>, <strong>coastal path</strong>, <strong>rail station</strong> and <strong>golf course</strong>.</p>
-        <p>We’d love for you to come and stay with us - you’ll get the very best of good ole Norfolk hospitality, with a great nights sleep in one of our quiet en-suite bedrooms and a breakfast to write home about.</p>
-        <p><img src="https://www.highfieldsheringham.com/wp-content/uploads/2017/03/190123-5Mont-011-768x512.jpg" /></p>
-        <p><img src="https://www.highfieldsheringham.com/wp-content/uploads/2017/03/190123-5Mont-002-768x512.jpg" /></p>
-        <p><strong>Sheringham town</strong> is an absolute must see, there really is something for everyone, from our blue flag beach with lovely promenade to our steam railway, which never fails to enthral, whatever your age.</p>
-        <p>There is a links golf course situated on the cliff tops with views to put you right off your game. We have some beautiful coastal and inland walks, with many renowned beauty spots and wildlife, with a coastal bus service to hail if you don’t fancy the walking back. The surrounding area is awash with National Trust places of interest and you will never struggle for some truly great food and a refreshing pint.</p>
-        <p>We hope that you will visit us soon, and return often.</p>
-        <p><em>&mdash; Sammy &amp; John</em></p>
+        <div className="md:flex">
+          <div className="flex-1 md:mr-16">
+            <p>A lovely spacious Edwardian Bed &amp; Breakfast in the heart of Sheringham, <em>quietly</em> tucked away, yet just a stones throw to the <strong>town centre</strong>, <strong>beach</strong>, <strong>coastal path</strong>, <strong>rail station</strong> and <strong>golf course</strong>.</p>
+            <p>We’d love for you to come and stay with us - you’ll get the very best of good ole Norfolk hospitality, with a great nights sleep in one of our quiet en-suite bedrooms and a breakfast to write home about.</p>
+            <p><strong>Sheringham town</strong> is an absolute must see, there really is something for everyone, from our blue flag beach with lovely promenade to our steam railway, which never fails to enthral, whatever your age.</p>
+            <p>There is a links golf course situated on the cliff tops with views to put you right off your game. We have some beautiful coastal and inland walks, with many renowned beauty spots and wildlife, with a coastal bus service to hail if you don’t fancy the walking back. The surrounding area is awash with National Trust places of interest and you will never struggle for some truly great food and a refreshing pint.</p>
+            <p>We hope that you will visit us soon, and return often.</p>
+            <p><em>&mdash; Sammy &amp; John</em></p>
+          </div>
+          <div className="flex-1 max-w-xs">
+            <p><img src="https://www.highfieldsheringham.com/wp-content/uploads/2017/03/190123-5Mont-011-768x512.jpg" /></p>
+            <p><img src="https://www.highfieldsheringham.com/wp-content/uploads/2017/03/190123-5Mont-002-768x512.jpg" /></p>
+            <p><img src="https://www.highfieldsheringham.com/wp-content/uploads/2017/03/190123-5Mont-029-768x513.jpg" /></p>
+          </div>
+        </div>
       </main>
     </>
   )

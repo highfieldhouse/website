@@ -11,7 +11,7 @@ export default function Page() {
         <h2>COVID-19: Safety at Highfield</h2>
         <p>Providing a <em>safe and clean</em> place for our guests has always been one of our biggest priorities, and now more than ever.</p>
         <h3>Steps we are taking:</h3>
-        <ul>
+        <ul className="list">
           <li>Cleaning before, during and after stays using PPE.</li>
           <li>Regularly sanitizing hard surfaces, door handles, stair rails, light switches, lamps, keys etc.</li>
           <li>Disinfecting fabrics.</li>
@@ -21,7 +21,7 @@ export default function Page() {
         </ul>
         <h3>What you as guests can do to help...</h3>
         <p>We ask all guests to do the following in order to reduce the risk to others:</p>
-        <ul>
+        <ul className="list">
           <li>Fill out a registration card on arrival to support the Track &amp; Trace system. We'll notify anyone if we believe they've come in to contact with someone showing symptoms of the virus. We work closely with local businesses, places you may visit during your stay. Details will be kept secure for 21 days from day of your departure.</li>
           <li>To use the hand sanitizer gels upon entering and leaving the building, as well as the dining room.</li>
           <li>Minimise touching of surfaces in communal areas.</li>
