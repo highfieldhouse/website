@@ -17,7 +17,7 @@ const Layout: React.FunctionComponent = (props) => {
       <header>
         <h1>
           <strong>Highfield House</strong>
-          <span>Bed &amp; Breakfast, Sheringham</span>
+          <span>Bed &amp; Breakfast, in the heart of Sheringham</span>
         </h1>
       </header>
       <nav>
