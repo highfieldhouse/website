@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "sh -c '( export NODE_ENV=production; next build && next export; )'"
+    "build": "sh -c '( rm -rf .next out; export NODE_ENV=production; next build && next export; )'"
   },
   "dependencies": {
     "next": "9.3.5",
