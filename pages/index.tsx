@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>Highfield House</title>
+        <title>Highfield House, Sheringham</title>
       </Head>
 
       <main>
