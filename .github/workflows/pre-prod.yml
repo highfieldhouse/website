@@ -16,6 +16,7 @@ jobs:
         run: |
           npm install
           npm run build
+          touch out/.nojekyll
 
       - name: Install SSH Client
         uses: webfactory/ssh-agent@v0.2.0
