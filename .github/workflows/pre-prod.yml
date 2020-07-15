@@ -27,5 +27,5 @@ jobs:
         with:
           SSH: true
           REPOSITORY_NAME: highfieldhouse/website-pre-prod-gh-pages
-          BRANCH: master
+          BRANCH: gh-pages
           FOLDER: out
