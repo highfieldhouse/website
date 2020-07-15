@@ -33,9 +33,9 @@ export default function Page() {
             <p><em>&mdash; Sammy &amp; John</em></p>
           </div>
           <div className="flex-1 max-w-xs">
-            <p><img src="https://www.highfieldsheringham.com/wp-content/uploads/2017/03/190123-5Mont-011-768x512.jpg" /></p>
-            <p><img src="https://www.highfieldsheringham.com/wp-content/uploads/2017/03/190123-5Mont-002-768x512.jpg" /></p>
-            <p><img src="https://www.highfieldsheringham.com/wp-content/uploads/2017/03/190123-5Mont-029-768x513.jpg" /></p>
+            <p><img src="/images/190123-5Mont-011-768x512.jpg" /></p>
+            <p><img src="/images/190123-5Mont-002-768x512.jpg" /></p>
+            <p><img src="/images/190123-5Mont-029-768x513.jpg" /></p>
           </div>
         </div>
       </main>

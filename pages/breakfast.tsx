@@ -35,9 +35,9 @@ export default function Page() {
             </ul>
           </div>
           <div className="flex-1 max-w-xs">
-            <p><img src="https://www.highfieldsheringham.com/wp-content/uploads/2017/03/English.jpg" /></p>
-            <p><img src="https://www.highfieldsheringham.com/wp-content/uploads/2017/03/dining-room-624x466.jpg" /></p>
-            <p><img src="https://www.highfieldsheringham.com/wp-content/uploads/2017/03/Benedict.jpg" /></p>
+            <p><img src="/images/English.jpg" /></p>
+            <p><img src="/images/dining-room-624x466.jpg" /></p>
+            <p><img src="/images/Benedict.jpg" /></p>
           </div>
         </div>
       </main>
