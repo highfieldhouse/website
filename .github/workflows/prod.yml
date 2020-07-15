@@ -30,5 +30,3 @@ jobs:
           REPOSITORY_NAME: highfieldhouse/highfieldhouse.github.io
           BRANCH: master
           FOLDER: out
-          CLEAN: true
-          CLEAN_EXCLUDE: '[".nojekyll", "CNAME"]'
