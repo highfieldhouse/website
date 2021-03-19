@@ -25,6 +25,7 @@ export default function Page() {
               <li>Vegetarian/Vegan options.</li>
               <li>Eggs Benedict, with bacon or salmon,  our rich Hollandaise sauce freshly made each morning.</li>
               <li>Scrambled or Poached Eggs on toast with some smoked salmon if you fancy.</li>
+              <li>Smoked kipper served with scrambled eggs, baked tomato and bread &amp; butter.</li>
               <li>Toasted white or wholemeal bread.</li>
               <li>Selection of jams and marmalade.</li>
             </ul>

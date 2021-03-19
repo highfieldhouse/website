@@ -24,7 +24,12 @@ export default function Page() {
           <div className="flex-1 md:mr-16">
             <p>A lovely spacious Edwardian Bed &amp; Breakfast in the heart of Sheringham, quietly tucked away yet just a stones throw to the <strong>town centre</strong>, <strong>beach</strong>, <strong>coastal path</strong>, <strong>rail station</strong> and <strong>golf course</strong>.</p>
             <div className="bg-orange-200 border-l-4 border-orange-500 text-orange-700 px-4 py-2 mb-4" role="alert">
-              <p className="m-0">Highfield is proudly rated &ldquo;Exceptional&rdquo; on <a href="https://www.booking.com/hotel/gb/highfield-guest-house-sheringham.en-gb.html">Booking.com</a> and 5/5 on <a href="https://www.tripadvisor.co.uk/Hotel_Review-g503736-d1835083-Reviews-Highfield_Guest_House-Sheringham_Norfolk_East_Anglia_England.html">TripAdvisor</a>.</p>
+              <p className="m-0">
+                <strong>New for 2021</strong><br />
+                <strong>We're opening our garden for food &amp; drink!</strong><br />
+                A lovely suntrap in the summer, open from mid June to mid Sept.<br />
+                We're fully licensed to serve alcohol and can't wait to share our gorgeous garden with you.
+              </p>
             </div>
             <p>We’d love for you to come and stay with us - you’ll get the very best of good ole Norfolk hospitality, with a great nights sleep in one of our quiet en-suite bedrooms and a breakfast to write home about.</p>
             <p><strong>Sheringham town</strong> is an absolute must see, there really is something for everyone, from our blue flag beach with lovely promenade to our steam railway, which never fails to enthral, whatever your age.</p>
