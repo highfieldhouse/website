@@ -32,3 +32,5 @@ jobs:
           REPOSITORY_NAME: highfieldhouse/highfieldhouse.github.io
           BRANCH: master
           FOLDER: out
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
